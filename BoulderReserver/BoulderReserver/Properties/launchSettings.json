@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BoulderReserver": {
+      "commandName": "Project",
+      "commandLineArgs": "-g 43 -u yi.spierings@gmail.com -p hSK6a6Jkt!@*7W2$ -t \"zaterdag 18:00\" --amount 2"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+Boulder Reserver.
+
+Usage:
+  BoulderReserver -g <gym> -u <username> -p <password> -t <timeslot>
+  BoulderReserver -g <gym> -u <username> -p <password> -t <timeslot> -a <amount>
+  BoulderReserver -h | --help
+
+Options:
+  -h --help                 Show this screen.
+  -g --gym <gym>            The number of the gym for which to reserve a timeslot.
+  -u --username <username>  Username or email.
+  -p --password <password>  The password.
+  -t --timeslot <timeslot>  The timeslot to reserve. (Formatted as 'dddd HH:mm'. eg: "donderdag 19:00").
+  -a --amount <amount>      The amount of persons to reserve for [default: 1].

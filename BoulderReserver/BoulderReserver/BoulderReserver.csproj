@@ -8,8 +8,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\docopt.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\docopt.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="docopt.net" Version="0.6.1.10" />
     <PackageReference Include="HtmlAgilityPack" Version="1.11.28" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\docopt.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
   <ItemGroup>
